@@ -17,5 +17,9 @@ Standard_Scaler=pickle.load(open('models/scaler.pkl','rb'))
 def index():
     return render_template('index.html')
 
+@app.route("/test")
+def test():
+    return "Server working"    
+
 if __name__=="__main__":
     app.run(host="0.0.0.0")
