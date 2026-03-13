@@ -72,30 +72,6 @@ flask-ml-project
 
 ---
 
-## ▶️ How to Run the Project
-
-1. Clone the repository
-
-git clone https://github.com/yourusername/flask-ml-project.git
-
-2. Navigate to the project folder
-
-cd flask-ml-project
-
-3. Install dependencies
-
-pip install -r requirements.txt
-
-4. Run the Flask application
-
-python application.py
-
-5. Open your browser and go to
-
-http://127.0.0.1:5000
-
----
-
 ## 📊 Prediction Workflow
 
 1. User enters environmental parameters in the web form
